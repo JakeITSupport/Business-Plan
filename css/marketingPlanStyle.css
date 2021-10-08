@@ -1,0 +1,250 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}
+p{
+  text-indent: 50px;
+}
+.header{
+	width: 100%;
+	color: #fff;
+  float: left;
+}
+.header h2{
+  text-align: center;
+  font-size: 50pt;
+  padding-bottom: 150px;
+}
+.web-title{
+	float: left;
+	width: 400px;
+}
+.web-title h1{
+	font-size: 16pt;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  padding-left: 2.95%;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 5px;  
+}
+.topnav a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.topnav a.active {
+  color: #fff;
+}
+.topnav a.active:hover,
+.topnav a.icon:hover {
+  background-color: transparent;
+  cursor: none;
+  color: #fff;
+  text-decoration: none;
+}
+.topnav .icon {
+  display: none;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: .9s;
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.subNavigations{
+  width: 100%;
+  background-color: #ddd;
+  padding: 10px, 10px, 10px, 0px;
+  float: left;
+}
+.subNavigations a{
+  float: left;
+  color: #000;
+  text-decoration: none;
+  font-size: 14pt;
+  padding: 10px;
+  margin-left: 19px;
+  cursor: pointer;
+}
+.subNavigations a:hover{
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: underline;
+}
+.subNavigations a.active1{
+  background-color: transparent;
+  color: #000;
+  text-decoration: none;
+  cursor: none;
+}
+@media screen and (max-width: 1350px){
+  .web-title, .navigations{
+    width: 50%;
+  }
+  .web-title h1{
+    font-size: 20pt;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 1025px){
+  .web-title h1{
+    padding: 0px;
+    padding-left: 10px;
+  }
+  .web-title, .topnav{
+    width: 100%;
+  } 
+  .web-title h1{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+.pageContent{
+  width: 100%;
+  float: left;
+}
+.pageSubContent{
+  width: 70%;
+  margin: auto;
+}
+
+#a1, #a2, #a3, #a4, #a5,
+#a6, #a7, #a8{
+  width: 100%;
+  float: left;
+  font-size: 14pt;
+  padding-top: 70px;
+}
+p{
+  text-indent: 50px;
+}
+#a1 h3{
+  font-size: 16pt;
+}
+.a1col{
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 40%;
+  height: auto;
+  float: left;
+  margin-left: 50px;
+}
+.a1col img{
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 800px) {
+  .pageSubContent{
+    width: 90%;
+  }
+  .a1col {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 40%;
+  }
+  .a1col img{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .a1col{
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .a1col img{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subNavigations{
+    display: none;
+  }
+  #a1, #a2, #a3, #a4, #a5,
+  #a6, #a7, #a8{
+    padding-top: 20px;
+  }
+  #a2 img{
+    width: 100%;
+    height: auto;
+  }
+}
+footer{
+  width: 100%;
+  float: left;
+}
+.fRow{
+  float: left;
+  width: 100%;
+  background-color: #333;
+  margin-top: 0px;
+}
+.fCol{
+  float: left;
+  padding: 20px;
+  color: #fff;
+}
+.fCol img{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+

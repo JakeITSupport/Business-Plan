@@ -1,0 +1,219 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+}
+
+.logo{
+	width: 100px;
+	height: auto;
+	margin: auto;
+}
+
+.logo img{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+
+h1{
+	text-align: center;
+	font-size: 40pt;
+}
+
+.topnav {
+  overflow: hidden;
+  margin: auto;
+  width: 85%;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  padding-left: 2.95%;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 5px;
+  
+}
+.topnav a:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  text-decoration: underline;
+  border-radius: 10px;
+}
+
+.topnav .icon {
+  display: none;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: .9s;
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+.change .bar2 {opacity: 0;}
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav{
+  	width: 100%;
+  }
+
+  .topnav a.icon:hover {
+  	background-color: transparent;
+  	cursor: none;
+  	color: #fff;
+  	text-decoration: none;
+	}
+
+}
+
+.acknowledgement{
+	width: 80%;
+	margin: auto;
+	font-size: 12pt;
+	margin-top: 100px;
+}
+
+h2{
+	text-align: center;
+}
+
+p{
+	text-indent: 50px;
+	
+}
+
+/*---------footer--------------*/
+
+
+.w3-row-padding{
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	margin-top: 20px;
+}
+
+.w3-third{
+
+}
+
+.fBtns{
+	height: 180px;
+	width: 200px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.fBtns button{
+	width: 100%;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #000;
+	color: #fff;
+	transition: 1s;
+}
+
+.fBtns button:hover{
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+
+.fImg{
+	width: 150px;
+	height: 150px;
+	padding-top: 10px;
+	margin: auto;
+}
+
+.fImg img{
+	width: 150px;
+	height: 150px;
+	border: 1px solid white;
+	border-radius: 50%;
+
+}
+
+.fCon{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.fNav{
+	height: 250px;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.fNav a{
+	text-decoration: none;
+}
+
+.fNav a:hover{
+	color: blue;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 800px){
+	.fImg{
+		width: 100px;
+		height: 100px;
+	}
+	.fImg img{
+		width: 100px;
+		height: 100px;
+	}
+
+	.fCon{
+		font-size: 10px;
+	}
+
+	.fBtns button{
+		font-size: 8pt;
+	}
+
+	.fNav{
+		font-size: 10pt;
+		text-align: center;
+		height: 200px;
+	}
+
+}
+
+
